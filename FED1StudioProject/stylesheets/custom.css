@@ -47,6 +47,18 @@ h3, h4{
     font-weight: bold;
 }
 
+#contactUsStyle{
+    color:maroon;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contactInfoStyle{
+    color: maroon;
+    font-size: 22px;
+    text-align: center;
+}
+
 footer {
     background-color: lightgray;
 }
