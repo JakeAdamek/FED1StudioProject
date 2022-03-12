@@ -20,6 +20,22 @@ main {
    text-align: center;
 }
 
+#leadershipStyle{
+    color: maroon;
+    font-size: 30px;
+    text-align: center;
+}
+
+aside h2{
+    color: maroon;
+    text-align: right;
+}
+
+ul li{
+    color: maroon;
+    text-align: right;
+}
+
 .classSubjectsStyle{
     color: maroon;
     font-size: 26px;
