@@ -20,7 +20,13 @@ main {
    text-align: center;
 }
 
-h3{
+.classSubjectsStyle{
+    color: maroon;
+    font-size: 26px;
+    text-align: center;
+}
+
+h3, h4{
     color:maroon;
     font-weight: bold;
 }
