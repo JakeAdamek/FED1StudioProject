@@ -1,0 +1,30 @@
+﻿
+
+header{
+    background-color: lightgray;
+}
+
+main {
+    background-color: lightgray;
+}
+
+#aboutUsStyle{
+    color: maroon;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#whyChooseUsStyle{
+    color: maroon;
+    font-size: 30px;
+   text-align: center;
+}
+
+h3{
+    color:maroon;
+    font-weight: bold;
+}
+
+footer {
+    background-color: lightgray;
+}
