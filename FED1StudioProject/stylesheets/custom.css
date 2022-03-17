@@ -1,7 +1,10 @@
 ﻿
 
-header{
+header {
     background-color: lightgray;
+    background-image: url(../images/background-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
     header h3{
@@ -13,6 +16,19 @@ header{
             font-weight: bold;
             font-style: italic;
         }
+
+#headerOverlay {
+    background-image: url('../images/sts.png');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+
+header h3, header p {
+    /*Clearing the background image area*/
+    margin: 7px 0 7px 150px;
+}
 
 
 /*Nav Bar*/
@@ -47,6 +63,10 @@ nav ul li{
 nav ul li a{
     padding: .4em 1em;
     display: block;
+}
+
+nav ul{
+    margin: 0;
 }
 
 
