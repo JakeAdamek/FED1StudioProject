@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="contact.html" />
+    <Content Include="images\arjun-mj-9nZS5DzfHzk-unsplash.jpg" />
     <Content Include="images\background-header.png" />
+    <Content Include="images\favicon.ico" />
     <Content Include="images\sts.png" />
     <Content Include="index.html" />
     <Content Include="stylesheets\custom.css" />

@@ -1,21 +1,34 @@
 ﻿
+/*#region Body */
 
-header {
-    background-color: lightgray;
-    background-image: url(../images/background-header.png);
-    background-repeat: no-repeat;
+body {
+    background-image: url('../images/arjun-mj-9nZS5DzfHzk-unsplash.jpg');
+    margin: 0;
     background-size: cover;
 }
 
-    header h3{
+/*#endregion */
+
+/*#region Header*/
+
+header {
+    background-image: url(../images/background-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 15px;
+}
+
+    header h3 {
         font-family: 'Questrial', sans-serif;
     }
 
-        header p {
-            font-family: 'Questrial', sans-serif;
-            font-weight: bold;
-            font-style: italic;
-        }
+    header p {
+        font-family: 'Questrial', sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
 
 #headerOverlay {
     background-image: url('../images/sts.png');
@@ -30,105 +43,172 @@ header h3, header p {
     margin: 7px 0 7px 150px;
 }
 
+.fa {
+    float: right;
+    padding: 20px;
+    margin: 0px;
+}
 
-/*Nav Bar*/
-nav a{
+/*#endregion */
+
+/*#region Nav Bar */
+nav a {
     font-weight: bold;
 }
 
-a{
+/*a {
     text-decoration: none;
     color: rebeccapurple;
+}*/
+
+nav ul li a.active-page {
+    background-color: black;
+    padding: 0.4em 1em;
+    margin: 6.5px;
 }
 
-nav a:hover, nav a:active, nav a:focus{
+nav a:hover, nav a:active, nav a:focus, nav a {
     text-decoration: none;
+
 }
 
-nav ul{
+nav ul {
     background-color: grey;
-    padding: 0;
     border-top: 2px black;
     border-bottom: 2px black;
+    min-height: 45px;
 }
 
-nav li:hover{
+nav li:hover {
     background-color: black;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
 }
 
-nav ul li a{
-    padding: .4em 1em;
-    display: block;
-}
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+        margin: 6.5px;
+    }
 
-nav ul{
+nav ul {
     margin: 0;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-top: solid 2px black;
+    border-radius: 5px;
 }
 
+/*#endregion */
+
+/*#region Index Main */
 
 main {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, .9);
 }
 
     main p {
         font-family: 'Amiri', serif;
     }
 
-#aboutUsStyle{
+.mainWrapper {
+    padding: 3%;
+}
+
+aside h2 {
+    color: maroon;
+    text-align: right;
+}
+
+ul li {
+    color: maroon;
+    text-align: right;
+}
+
+#aboutUsStyle {
     color: maroon;
     text-decoration: underline;
     font-weight: bold;
+    margin-top: 0px;
 }
 
-#whyChooseUsStyle{
-    color: maroon;
-    font-size: 30px;
-   text-align: center;
-}
-
-#leadershipStyle{
+#whyChooseUsStyle {
     color: maroon;
     font-size: 30px;
     text-align: center;
 }
 
-aside h2{
+h3, h4 {
     color: maroon;
-    text-align: right;
-}
-
-ul li{
-    color: maroon;
-    text-align: right;
-}
-
-.classSubjectsStyle{
-    color: maroon;
-    font-size: 26px;
-    text-align: center;
-}
-
-h3, h4{
-    color:maroon;
     font-weight: bold;
 }
 
-#contactUsStyle{
-    color:maroon;
+/*#endregion */
+
+/*#region Classes Main */
+
+.classSubjectsStyle {
+    color: maroon;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/*#endregion */
+
+/*#region Team Main */
+
+#leadershipStyle {
+    color: maroon;
     font-size: 30px;
     text-align: center;
+    margin-top: 0px;
 }
 
-.contactInfoStyle{
+/*#endregion */
+
+/*#region Contact Main */
+
+#contactUsStyle {
     color: maroon;
-    font-size: 22px;
+    font-size: 33px;
     text-align: center;
+    margin-top: 0px;
+    padding: 1em;
 }
+
+.contactInfoStyle {
+    color: maroon;
+    font-size: 18px;
+    text-align: center;
+    height: auto;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 400px;
+    padding: 1em;
+    margin: auto;
+}
+
+.contactUsBodyStyle {
+    padding: 10px;
+    padding-bottom: 125px;
+}
+
+/*#endregion */
+
+/*#region Footer */
 
 footer {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, .9);
+    padding: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 0px;
 }
+
+.fa2
+
+/*#endregion */

@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Ever Growing Education</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <meta name="description" content="This is a website for learning about and scheduling music lessons" />
     <meta name="keywords" content="Music, Lessons, Education, Guitar, Drums, Piano, Music Theory" />
     <meta name="author" content="Jake Adamek" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +23,11 @@
 
 <body>
     <header>
+        <div class="fa">
+            <i class="fa fa-instagram" style="font-size:36px"></i>
+            <i class="fa fa-twitter-square" style="font-size:36px"></i>
+            <i class="fa fa-facebook-square" style="font-size:36px"></i>
+        </div>
         <div id="headerOverlay">
             <!-- Add social media logos to header -->
             <h3>Ever Growing Education</h3>
@@ -30,7 +38,7 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html">Home</a>
+                <a href="index.html" class="active-page">Home</a>
             </li>
             <li>
                 <a href="classes.html">Classes</a>
@@ -46,13 +54,13 @@
 
     <main>
         <article>
-            <section>
+            <section class="mainWrapper">
                 <!-- TODO Add About Us photo/format -->
                 <h2 id="aboutUsStyle">About Us</h2>
                 <p>Since its inception in 2004, Ever Growing Education has been a staple in the education of music performance, composition, and production. By mixing classical music training &amp; music theory with modern music composition &amp; recording procedures, our goal is to help create musicians that aren't afraid to experiment with new sounds but also understand why sometimes that may or may not work. We are committed to bring the best possible education to you while also inspiring you to continuously adapt and learn. To us, music is ever inspiring, ever exciting, and ever growing.</p>
             </section>
 
-            <section>
+            <section class="mainWrapper">
                 <!-- Add Why Choose Us photo/format -->
                 <!-- Match up section title sizes/importance -->
                 <h1 id="whyChooseUsStyle">Why Choose Us</h1>
